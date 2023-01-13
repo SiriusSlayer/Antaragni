@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765660675543",
+    "project_id": "antaragni-9a153",
+    "storage_bucket": "antaragni-9a153.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765660675543:android:f461c2348504b0ff6c9f92",
+        "android_client_info": {
+          "package_name": "com.example.myapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765660675543-7gje9599l441ml64l4965honm11ellqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUugzGPBphu41bSMf6G8qG8_t8cg1l5Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765660675543-7gje9599l441ml64l4965honm11ellqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
