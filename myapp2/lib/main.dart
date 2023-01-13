@@ -177,6 +177,8 @@ class MyCustomFormState extends State<MyCustomForm> {
 }
 
 class Contactus extends StatefulWidget {
+  const Contactus({super.key});
+
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
@@ -185,7 +187,7 @@ class Contactus extends StatefulWidget {
 }
 
 class ContactusState extends State<Contactus> {
-  List<Map<String, dynamic>> Data = [];
+  // List<Map<String, dynamic>> Data = [];
 
   Future getdata() async {
     await FirebaseFirestore.instance
@@ -213,13 +215,15 @@ class ContactusState extends State<Contactus> {
                 child: CircularProgressIndicator(),
               );
             }
+            // return Text("hello");
 
             return ListView(
+              shrinkWrap: true,
               children: snapshot.data!.docs.map((document) {
                 // ignore: avoid_unnecessary_containers
                 return Container(
-                  height: 300,
-                  width: 300,
+                  // height: 300,
+                  // width: 300,
                   child: Card(
                     clipBehavior: Clip.antiAlias,
                     shape: RoundedRectangleBorder(
